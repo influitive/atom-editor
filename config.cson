@@ -1,0 +1,28 @@
+"*":
+  "exception-reporting":
+    userId: "053e646b-696b-a99a-192c-0791ed3b136e"
+  welcome:
+    showOnStartup: false
+  react: {}
+  tabs:
+    showIcons: true
+  "tree-view":
+    hideVcsIgnoredFiles: false
+    hideIgnoredNames: false
+    showOnRightSide: false
+    sortFoldersBeforeFiles: true
+  core:
+    disabledPackages: [
+      "tabs"
+      "tree-view"
+      "deprecation-cop"
+    ]
+    themes: [
+      "seti-ui"
+      "one-dark-syntax"
+    ]
+    audioBeep: false
+  editor:
+    invisibles: {}
+    showInvisibles: true
+    fontSize: 10
