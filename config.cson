@@ -26,3 +26,4 @@
     invisibles: {}
     showInvisibles: true
     fontSize: 10
+    showIndentGuide: true
