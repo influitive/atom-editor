@@ -24,3 +24,10 @@
   'Debugger':
     'prefix': 'deb'
     'body': 'debugger;'
+'.source.ruby':
+  'binding-remote':
+    'prefix': 'pryr'
+    'body': 'binding.remote_pry'
+  'binding':
+    'prefix': 'pry'
+    'body': 'binding.pry'
