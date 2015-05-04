@@ -27,3 +27,6 @@
     showInvisibles: true
     fontSize: 10
     showIndentGuide: true
+  "save-commands":
+    timeout: 5000
+    commands: []
