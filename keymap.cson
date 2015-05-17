@@ -24,6 +24,8 @@
 # If you are unfamiliar with CSON, you can read more about it here:
 # https://github.com/bevry/cson#what-is-cson
 
-'atom-text-editor':
-  'ctrl-shift-enter': 'valign:align'
-  'cmd-shift-space': 'expand-selection:expand'
+'atom-text-editor:not([mini])':
+  'ctrl-shift-enter' : 'valign:align'
+  'cmd-shift-space'  : 'expand-selection:expand'
+  'ctrl-up'          : 'core:page-up'
+  'ctrl-down'        : 'core:page-down'
