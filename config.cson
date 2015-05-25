@@ -3,7 +3,8 @@
     userId: "053e646b-696b-a99a-192c-0791ed3b136e"
   welcome:
     showOnStartup: false
-  react: {}
+  react:
+    {}
   tabs:
     showIcons: true
   "tree-view":
@@ -23,11 +24,13 @@
     ]
     audioBeep: false
   editor:
-    invisibles: {}
+    invisibles:
+      {}
     showInvisibles: true
     fontSize: 10
     showIndentGuide: true
   "save-commands":
     timeout: 5000
     commands: []
-  "autocomplete-plus": {}
+  "autocomplete-plus":
+    minimumWordLength: 4
