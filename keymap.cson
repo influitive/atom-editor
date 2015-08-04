@@ -24,8 +24,7 @@
 # If you are unfamiliar with CSON, you can read more about it here:
 # https://github.com/bevry/cson#what-is-cson
 
-'atom-workspace':
-  'cmd-shift-space': 'expand-selection:expand'
-'atom-text-editor:not(mini).autocomplete-active':
-  'ctrl-tab': 'core:move-up'
-  'ctrl-shift-tab': 'core:move-down'
+'atom-text-editor':
+  'ctrl-shift-enter': 'valign:align'
+  'cmd-shift-space': 'expand-region:expand'
+  'alt-down': 'expand-region:shrink'
