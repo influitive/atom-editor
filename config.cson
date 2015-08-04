@@ -7,15 +7,8 @@
     {}
   tabs:
     showIcons: true
-  "tree-view":
-    hideVcsIgnoredFiles: false
-    hideIgnoredNames: false
-    showOnRightSide: false
-    sortFoldersBeforeFiles: true
   core:
     disabledPackages: [
-      "tabs"
-      "tree-view"
       "deprecation-cop"
     ]
     themes: [
@@ -27,10 +20,23 @@
     invisibles:
       {}
     showInvisibles: true
-    fontSize: 10
     showIndentGuide: true
+    fontSize: 11
   "save-commands":
     timeout: 5000
     commands: []
   "autocomplete-plus":
     minimumWordLength: 4
+  "atom-beautify":
+    _analyticsUserId: "24b7ff54-7972-4d6a-b06a-d89d031d0100"
+    beautifyEntireFileOnSave: false
+    analytics: false
+  "file-watcher":
+    promptWhenFileHasChangedOnDisk: false
+  nuclide:
+    remoteProjectsConfig: []
+  "git-plus": {}
+  emmet:
+    useEmmetComments: false
+  "git-blame": {}
+  "expand-region": {}
