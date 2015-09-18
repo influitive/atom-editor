@@ -3,10 +3,11 @@
     userId: "053e646b-696b-a99a-192c-0791ed3b136e"
   welcome:
     showOnStartup: false
-  react:
-    {}
+  react: {}
   tabs:
     showIcons: true
+    usePreviewTabs: true
+    enableVcsColoring: true
   core:
     disabledPackages: [
       "deprecation-cop"
@@ -16,9 +17,12 @@
       "one-dark-syntax"
     ]
     audioBeep: false
+    projectHome: "/Users/enric"
+    packagesWithKeymapsDisabled: [
+      "emmet"
+    ]
   editor:
-    invisibles:
-      {}
+    invisibles: {}
     showInvisibles: true
     showIndentGuide: true
     fontSize: 11
@@ -40,3 +44,6 @@
     useEmmetComments: false
   "git-blame": {}
   "expand-region": {}
+  jshint:
+    supportLintingJsx: true
+    onlyConfig: true
